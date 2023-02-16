@@ -4,7 +4,12 @@ public class Plants{
     private int hp;
     private int x;
     private int y;
-    
+    public int gethp(){
+        return hp;
+    }
+    public void sethp(int hp){
+        this.name=hp;
+    }
     public int getX() {
         return x;
     }
