@@ -23,6 +23,7 @@ public class Order {
         }
         return sum/n;
     }
+    //Below is for test file
 
     public static void main(String[] args) {
         Order firstOrder = new Order();
